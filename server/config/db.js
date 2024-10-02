@@ -11,3 +11,5 @@ connection.on('connected', () => {
 connection.on('error', () => {
     console.log("Error connected to db")
 })
+
+module.exports = mongoose
